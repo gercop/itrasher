@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="137dp"
+        android:orientation="vertical">
+
+
+        <![CDATA[
+
+        "
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="58dp"
+        android:layout_marginEnd="0dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop" />
+
+        ]]>
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="310dp"
+            android:layout_marginBottom="1dp"
+            android:text="Data da Entrega:" />
+
+        <TextView
+            android:layout_width="98dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="46dp"
+            android:layout_marginEnd="311dp"
+            android:text="Quantidade:" />
+
+        <TextView
+            android:layout_width="97dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="310dp"
+            android:layout_marginBottom="36dp"
+            android:text="Valor:" />
+
+        <TextView
+
+            android:id="@+id/rDescricao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="-2dp"
+            android:text="Title"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/rQuantidade"
+            android:layout_width="187dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/rUnidade"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="95dp"
+            android:layout_marginEnd="129dp"
+            android:layout_marginBottom="-29dp"
+            android:text="Esta é a quantidade"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/rUnidade"
+            android:layout_width="129dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="284dp"
+            android:layout_marginEnd="-2dp"
+            android:layout_marginBottom="75dp"
+            android:text=" unidade"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/rValor"
+            android:layout_width="187dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/rUnidade"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="95dp"
+            android:layout_marginEnd="129dp"
+            android:layout_marginBottom="-63dp"
+            android:text="Este é o valor"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/rData"
+            android:layout_width="187dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/rUnidade"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="96dp"
+            android:layout_marginEnd="128dp"
+            android:layout_marginBottom="-95dp"
+            android:text="data de entrega"
+            android:textSize="20sp" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:id="@+id/rTextUrlImagem"
+            android:layout_width="18dp"
+            android:layout_height="4dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="393dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="0dp"
+            android:text="TextView"
+            tools:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/textview_uid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/rTextUrlImagem"
+            android:layout_marginBottom="-12dp"
+            android:text="TextView"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/textview_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:visibility="invisible" />
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

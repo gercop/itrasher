@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".act_ajuda">
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="116dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="569dp"
+        android:layout_marginEnd="2dp"
+        android:text="Nesta tela você tem três opções de botôes, o botão 'LANÇAMENTOS'  te leva diretamente para a tela na qual você pode anunciar seus produtos, o botão 'PESQUISA' te direciona para uma tela de pesquisas de produtos que você procura e o botão 'AJUDA' o traz até aqui para te orientar através das telas do aplicativo "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="348dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="551dp"
+        android:layout_marginEnd="54dp"
+        android:text="Tela Inicial"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.014"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="178dp"
+        android:layout_marginEnd="6dp"
+        android:text="Em  seguida  você  precisa  selecionar um  dos  botões com a opção  'CADASTRAR'  para  cadastrar um novo usuário, assim você   será  encaminhado  para  uma  nova tela onde poderá preencher com seus dados; caso já seja cadastrado basta clicar entrar após preencher seu email e senha cadastrados. Uma vez cadastrado com sucesso,você também tem a opção de alterar seus dados  bastando para isso clicar no botão 'ALTERAR'"
+        android:textAlignment="viewStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="86dp"
+        android:layout_marginEnd="6dp"
+        android:text="Se esta é a primeira vez que você acessa o app Trasher, siga as orientações a seguir, na primeira tela do aplicativo há um campo para preencher com seu email, e no campo de senha você deve cadastrar uma senha segura e de fácil memorização "
+        android:textAlignment="viewStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="172dp"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="233dp"
+        android:layout_marginTop="676dp"
+        android:layout_marginEnd="7dp"
+        android:onClick="telaAjuda2"
+        android:text="Tela ajuda 2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="391dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="342dp"
+        android:layout_marginEnd="13dp"
+        android:text="Após, ser direcionado para tela de preenchimento de dados, é necessário colocar seu nome (obrigatoriamente! pois caso não ponha seu nome, seu cadastro nao será completo). Os outros espaços são opcionais, entretanto é recomendável que se coloque o máximo de informações possíveis para facilitar a negociação entre os usuráio e melhorar sua visibilidade. Atenção ao carregar uma foto, pois quando a sua foto é selecionada é preciso aguardar alguns segundos até que todos os dados sejam totalmente transferidos para seu perfil"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="327dp"
+        android:layout_marginEnd="240dp"
+        android:text="Inserir Dados"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="394dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="9dp"
+        android:text="Tela de Ajuda 1"
+        android:textSize="@android:dimen/app_icon_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="234dp"
+        android:text="Cadastro e Login"
+        android:textStyle="bold" />
+
+</RelativeLayout>

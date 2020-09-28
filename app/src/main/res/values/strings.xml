@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">iTrasher</string>
+    <string name="btn_entrar">Entrar</string>
+    <string name="btn_cadastrar">Cadastrar</string>
+    <string name="text_Usuario">Usuário</string>
+    <string name="text_UsuarioAst">Usuário (*)</string>
+    <string name="text_vazio" />
+    <string name="text_senha">Senha</string>
+    <string name="text_senhaAst">Senha (*)</string>
+    <string name="text_nome">Nome Completo</string>
+    <string name="text_razao">Razão Social</string>
+    <string name="text_end">Endereço</string>
+    <string name="text_bairro">Bairro</string>
+    <string name="text_cep">CEP</string>
+    <string name="text_tel">Telefone</string>
+    <string name="text_email">E-mail</string>
+    <string name="text_nacionalidade">Nacionalidade</string>
+    <string name="text_cidade">Cidade</string>
+    <string name="text_estado">Estado</string>
+    <string name="text_ajudar">AJUDAR</string>
+    <string name="text_quantidade">Quantidade (*)</string>
+    <string name="text_descricao">Descrição (*)</string>
+    <string name="text_valor">Valor (*)</string>
+    <string name="text_alterar">Alterar</string>
+    <string-array name="tipos_pagamento">
+        <item>30 dias de teste</item>
+        <item>Plano Semanal</item>
+        <item>Plano Quinzenal</item>
+        <item>Plano Mensal</item>
+    </string-array>
+    <string-array name="tipos_unidades">
+        <item>Grama</item>
+        <item>Quilograma</item>
+        <item>Tonelada</item>
+        <item>Unidade</item>
+    </string-array>
+
+</resources>
